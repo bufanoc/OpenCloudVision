@@ -1,0 +1,51 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependency directories
+vendor/
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Log files
+*.log
+logs/
+error_log
+access_log
+
+# Cache and temporary files
+*.cache
+*.tmp
+tmp/
+temp/
+.DS_Store
+
+# Database files
+*.sql
+*.sqlite
+*.db
+
+# Compiled files
+*.pyc
+*.class
+*.o
+
+# Configuration files that might contain sensitive information
+config.php
+database.php
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Operating System files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,36 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.php": "php"
+        },
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "files.encoding": "utf8",
+        "files.eol": "\n",
+        "php.validate.enable": true,
+        "php.suggest.basic": true,
+        "[php]": {
+            "editor.formatOnSave": true,
+            "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+        },
+        "workbench.colorCustomizations": {
+            "titleBar.activeBackground": "#2c3e50",
+            "titleBar.activeForeground": "#ffffff"
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "bmewburn.vscode-intelephense-client",
+            "xdebug.php-debug",
+            "neilbrayfield.php-docblocker",
+            "mhutchie.git-graph",
+            "eamodio.gitlens"
+        ]
+    }
+}
